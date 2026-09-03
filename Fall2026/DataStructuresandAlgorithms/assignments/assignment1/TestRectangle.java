@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+// Name:        Jake Cashion
+// Class:       Section W01
+// Term:        Fall 2026
+// Instructor:    Maxwell Bradley
+// Assignment:    1
+// IDE Name:    Visual Studio Code
+
 public class TestRectangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

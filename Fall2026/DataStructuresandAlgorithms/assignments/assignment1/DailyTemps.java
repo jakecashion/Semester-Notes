@@ -1,3 +1,10 @@
+// Name:        Jake Cashion
+// Class:       Section W01
+// Term:        Fall 2026
+// Instructor:    Maxwell Bradley
+// Assignment:    1
+// IDE Name:    Visual Studio Code
+
 public class DailyTemps {
     private int[] temperatures;
     private String[] dayNames = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};

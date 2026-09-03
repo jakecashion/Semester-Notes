@@ -40,8 +40,8 @@ public class TestTemps {
         System.out.println("yourTemps:");
         System.out.println("----------");
         System.out.println(yourTemps.printTemps());
-        System.out.println("Testing Freezing(): " + yourTemps.Freezing());
-        System.out.println("Testing Warmest():        " + yourTemps.Warmest());
+        System.out.println("Testing Freezing():     " + yourTemps.Freezing());
+        System.out.println("Testing Warmest():      " + yourTemps.Warmest());
         System.out.println();
         System.out.println("Testing method setTemp():");
         System.out.print("Enter a day name to update: ");
@@ -55,8 +55,8 @@ public class TestTemps {
         System.out.println("Updated yourTemps:");
         System.out.println("------------------");
         System.out.println(yourTemps.printTemps());
-        System.out.println("Days below freezing: " + yourTemps.Freezing());
-        System.out.println("Warmest day:        " + yourTemps.Warmest());
+        System.out.println("Days below freezing:     " + yourTemps.Freezing());
+        System.out.println("Warmest day:             " + yourTemps.Warmest());
 
         scanner.close();
     }

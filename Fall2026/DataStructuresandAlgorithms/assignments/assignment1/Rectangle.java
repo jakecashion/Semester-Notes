@@ -7,16 +7,16 @@
 // IDE Name:    Visual Studio Code
 
 public class Rectangle {
-    //Default values for rectangle objects
+    // Default values for rectangle objects
     
-    //default rectangle width value
+    // default rectangle width value
     private double width = 1.00;
     //default rectangle height value
     private double height = 1.00;
 
-    //Methods
+    // Methods
 
-    //Getter methods
+    // Getter methods
     public double getWidth() {
         return width;
     }
@@ -31,17 +31,17 @@ public class Rectangle {
     public double getPerimeter() {
         return (width+height)*2;
     }
-    //Print out Rectangle details
+    // Print out Rectangle details
 
     public String PrintRectangle(String name) {
         return "Rectangle " +name+ " is "+this.width+ " units wide and " +this.height+ " units high.";
     }
-    //Constructor methods
+    // Constructor methods
 
-    //default constructor
+    // default constructor
     public Rectangle() {}
 
-        //Constructor that will allow the user to input a double for the height and width
+        // Constructor that will allow the user to input a double for the height and width
     public Rectangle(double width, double height) {
         this.width = width;
         this.height = height;
